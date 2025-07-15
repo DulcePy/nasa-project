@@ -69,8 +69,24 @@
   background: #030615;
 }
 
+.sidebar-content h2 {
+  font-weight: 200;
+  font-size: 1.4rem;
+}
+
 .description-container {
   flex: 1;
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.description-title {
+  font-size: 1.1rem;
+  font-weight: 200;
 }
 
 .sidebar-content button {
@@ -81,7 +97,7 @@
   margin-right: auto;
   cursor: pointer;
   transition-duration: 200ms;
-  padding: 1rem;
+  padding: 1rem 0;
 }
 
 .sidebar-content button:hover {
@@ -139,6 +155,28 @@ footer .info-button:hover {
   opacity: 0.7;
 }
 
+.loading-state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.loading-state i {
+  opacity: 0.2;
+  font-size: 3rem;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 /* ---------- */
 @media (max-width: 640px) {
   .sidebar {
@@ -153,6 +191,4 @@ footer .info-button:hover {
     margin: unset;
     width: 100%;
   }
-
-  
 }

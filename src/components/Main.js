@@ -1,9 +1,11 @@
-export default function Main() {
+export default function Main(props) {
+  const {data} = props;
   return (
     <div className="image-container">
       <img
         className="main-image"
-        src="https://s3.amazonaws.com/kinlane-productions2/nasa/nasa-skymorph.jpg"
+        alt={data.title || 'NASA Image'}
+        src={data.hdurl}
       />
     </div>
   );
