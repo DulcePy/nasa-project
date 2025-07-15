@@ -6,7 +6,6 @@ import Footer from "./components/Footer";
 
 function App() {
   const [data, setData] = useState(null);
-  const [loading, setLoading] = useState(false);
   const [showModal, setShowModal] = useState(false);
 
   function toggleModal() {
