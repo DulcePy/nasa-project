@@ -2,10 +2,8 @@
   font-family: "Arial", sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color: #fff;
   background-color: #030615;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -21,7 +19,7 @@
 #root {
   min-height: 100vh;
   display: flex;
-  position: relative;
+  display: relative; 
 }
 
 .image-container {
@@ -183,7 +181,7 @@ footer .info-button:hover {
     position: relative;
     inset: unset;
     min-width: 30%;
-    max-width: 100vh;
+    max-height: 100vh;
     box-shadow: 0 0 40px 1px #030615;
   }
 
