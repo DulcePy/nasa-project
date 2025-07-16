@@ -18,6 +18,5 @@
 - Netlify
 
 ### 📷 Imágenes del proyecto
-![Vista principal](./src/images/photo-of-the-day.jpg)
-
-![Descripción](./src/images/description.jpg)
+<img src="src/images/photo-of-the-day.jpg" alt="Vista principal" width="400">
+<img src="src/images/description.jpg" alt="Descripción" width="400">
