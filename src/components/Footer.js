@@ -4,7 +4,7 @@ export default function Footer(props) {
     <footer>
       <div className="bg-gradient"></div>
       <div>
-        <h3>APOD PROJECT</h3>
+        <h3>Astronomy Picture of the Day</h3>
         <h2>{data?.title}</h2>
       </div>
       <button className="info-button" onClick={toggleModal}>

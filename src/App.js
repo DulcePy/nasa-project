@@ -40,7 +40,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App-header">
+    <>
       {data ? (
         <Main data={data} />
       ) : (
@@ -50,7 +50,7 @@ function App() {
       )}
       {showModal && <SideBar data={data} toggleModal={toggleModal} />}
       {data && <Footer data={data} toggleModal={toggleModal} />}
-    </div>
+    </>
   );
 }
 
